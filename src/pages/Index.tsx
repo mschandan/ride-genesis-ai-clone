@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -45,7 +44,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Car className="h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold text-gray-900">RideShare</span>
+              <span className="text-2xl font-bold text-gray-900">Remark</span>
             </div>
             <div className="flex items-center space-x-4">
               <Button 
@@ -109,7 +108,7 @@ const Index = () => {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Why Choose RideShare?
+            Why Choose Remark?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center hover:shadow-lg transition-shadow">
